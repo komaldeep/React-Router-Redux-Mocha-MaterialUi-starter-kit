@@ -10,6 +10,8 @@ const store = configureStore();
 import App from './components/app';
 import Posts from './components/posts';
 import Post from './components/post';
+import injectTapEventPlugin from 'react-tap-event-plugin';
+injectTapEventPlugin();
 
 render(
     <MuiThemeProvider>
