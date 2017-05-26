@@ -4,6 +4,7 @@ import AppBar from 'material-ui/AppBar';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import baseTheme from 'material-ui/styles/baseThemes/lightBaseTheme';
 
+
 export default class App extends Component{
 
     constructor(props){
@@ -18,11 +19,11 @@ export default class App extends Component{
 
     render(){
         return(
-            <div className="">
+            <div className="bodyText">
                 <AppBar
                     title="Title"
                 />
-                <h3> React- redux project </h3>
+                <h3> redux project </h3>
 
                 <input className="inputfield" type="text"/>
             </div>

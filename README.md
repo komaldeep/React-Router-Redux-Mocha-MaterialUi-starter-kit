@@ -1,4 +1,4 @@
-# React + Redux starter
+# React + Redux + Router + mocha + enzyme + chai + Material UI Theme starter
 
 Basic dependencies to get started with your React project using [Redux](http://redux.js.org/)
 
