@@ -2,10 +2,17 @@ import React from 'react';
 // import expect from 'expect';
 import {expect} from 'chai';
 import { mount , shallow } from 'enzyme';
-import App from '../app';
+import App from './../app';
+import AppBar from 'material-ui/AppBar';
+import getMuiTheme from 'material-ui/styles/getMuiTheme';
 
 describe('<App />', () => {
-    const component = mount(<App />);
+     const component = mount(<App />);
+
+    // beforeEach(() => {
+    //   const component = mount(<App />, {context: {getMuiTheme}});
+    // });
+
 
     it('should be defined', () => {
         expect(component).to.have.length(1);
